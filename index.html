@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="style.css" rel = "stylesheet">
+        <title>Pig Game</title>
+    </head>
+
+    <body>
+        <div class = "wrapper clearfix">
+            <div class = "player-0-panel active">
+                <div class = "player-name" id = 'name-0'> player1 </div>
+                <div class = "player-score" id = 'score-0'>42</div>
+                <div class = "player-current-box">
+                    <div class="player-current-label">CURRENT</div>
+                    <div class = "player-current-score" id = "current-0">44</div>
+                </div>
+            </div>
+
+            <div class = "player-1-panel">
+                <div class = "player-name" id = 'name-1'> player2 </div>
+                <div class = "player-score" id = 'score-1'>25</div>
+                <div class = "player-current-box">
+                    <div class="player-current-label">CURRENT</div>
+                    <div class = "player-current-score" id = "current-1">30</div>
+                </div>
+            </div>
+
+            <button class = "btn-new"><i class="material-icons">control_point</i>NEW GAME</button>
+            <button class = "btn-roll"><i class="material-icons">autorenew</i>ROLL DICE</button>
+            <button class = "btn-hold"> <i class="material-icons">archive</i>HOLD</button>
+
+            <input class = "final-score" type = "text" placeholder = "finalscore">
+
+            <img src = "dice-5.png" alt = "Dice" class = "dice" id = "dice1">
+            <!--<img src = "dice-5.png" alt = "Dice" class = "dice" id = "dice2">-->
+        </div>
+    </body>
+    <script type="text/javascript" src="app.js"></script>
+</html>
